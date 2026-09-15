@@ -5,6 +5,7 @@ Repository with all the code for the MLOps module of ICS 2026.
 ## Sessions
 
 - [Session 1](session-1/README.md): minimal PyTorch project (custom dataset, model and training loop).
+- [Session 2](session-2/README.md): Train your own model with a custom dataset.
 
 ## Troubleshooting
 
