@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Session 3: dataset and trained model
+dataset/
+*.zip
+*.pth
