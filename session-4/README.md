@@ -81,7 +81,7 @@ Deploy the app to the cloud, so anyone with the URL can use it.
 
 To do it, we will use **Cloud Shell**: a terminal in your browser, inside the Google Cloud console. It already has `gcloud` (the Google Cloud command line tool) installed and logged in with your account, so you don't have to install yet another tool in your computer, and the commands are the same for everyone (Windows, Mac and Linux).
 
-1. Open the [Google Cloud console](https://console.cloud.google.com/), select your project and click the *Activate Cloud Shell* button (the terminal icon at the top right). A terminal opens at the bottom of the page.
+1. Open the [Google Cloud shell]([https://console.cloud.google.com/](https://shell.cloud.google.com)). A terminal opens at the bottom of the page. On the top, you have an editor: you can open your home folder and see the files there.
 2. Get your code into Cloud Shell: click *Open Editor* (top right of the terminal). In the editor's file tree, drag and drop your `session-4` folder from your computer into the home folder. Don't drag the whole repository: it contains the dataset (877 MB). Your trained `state_dict.pt` (110 MB) is inside `session-4/app`, so it goes with it; if you want the upload to be faster, delete it first and deploy with the untrained checkpoint from the repository.
 3. Back in the terminal, go to the app folder:
 ```bash
