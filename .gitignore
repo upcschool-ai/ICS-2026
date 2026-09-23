@@ -221,3 +221,6 @@ __marimo__/
 dataset/
 *.zip
 *.pth
+
+# Session 4: dataset
+yelp_review_polarity_csv/
